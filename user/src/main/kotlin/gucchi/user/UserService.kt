@@ -1,4 +1,4 @@
-package gucchi.user;
+package gucchi.user
 
 class UserService(private val userRepository: UserRepository = UserRepositoryImpl()) {
 

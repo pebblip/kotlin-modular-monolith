@@ -1,4 +1,4 @@
-package gucchi.user;
+package gucchi.user
 
 interface UserRepository {
     fun findById(id: Long): User?

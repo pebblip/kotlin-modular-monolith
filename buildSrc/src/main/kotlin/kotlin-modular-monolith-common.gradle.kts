@@ -14,5 +14,7 @@ kotlin {
 spotless {
     kotlin {
         target("src/**/*.kt")
+        targetExclude("buildSrc/**/*.kt")
+        ktlint("0.50.0")        
     }
 }

@@ -2,7 +2,6 @@ package gucchi.app
 
 import gucchi.user.UserService
 
-
 fun main() {
     val userService = UserService()
 
@@ -15,7 +14,7 @@ fun main() {
                     input.drop(2).joinToString(" ").takeIf { it.isNotBlank() }?.let { name ->
                         println("added: ${userService.createUser(id, name)}")
                     }
-                } 
+                }
                 "get" -> input.getOrNull(1)?.toLongOrNull()?.let { id ->
                     println(userService.getUser(id)?.let { "Found: $it" } ?: "Not found")
                 }
