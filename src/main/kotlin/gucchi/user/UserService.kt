@@ -9,6 +9,5 @@ class UserService(private val userRepository: UserRepository = UserRepositoryImp
 
     fun getUser(id: Long): User? {
         return userRepository.findById(id)
-    }   
-
+    }
 }
