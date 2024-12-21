@@ -1,6 +1,6 @@
 package gucchi.user;
 
-class UserRepositoryImpl : UserRepository {
+internal class UserRepositoryImpl : UserRepository {
 
     private val users = mutableMapOf<Long, User>()
 
