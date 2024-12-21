@@ -9,5 +9,5 @@ application {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation(project(":user"))
+    implementation(project(":service"))
 }
