@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    api(project(":user"))
+    implementation(project(":user"))
     implementation(kotlin("stdlib"))
 }
 
