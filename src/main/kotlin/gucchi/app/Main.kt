@@ -1,6 +1,7 @@
 package gucchi.app
 
-import gucchi.service.UserService
+import gucchi.user.UserService
+
 
 fun main() {
     val userService = UserService()

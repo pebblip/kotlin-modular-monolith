@@ -1,5 +1,5 @@
 services:
-  modular-monolith:
+  app:
     image: openjdk:21-jdk-slim
     working_dir: /app
     volumes:
