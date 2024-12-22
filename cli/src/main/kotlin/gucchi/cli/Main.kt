@@ -1,4 +1,4 @@
-package gucchi.app
+package gucchi.cli
 
 import gucchi.service.UserService
 

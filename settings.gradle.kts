@@ -2,5 +2,5 @@ rootProject.name = "user-management"
 
 include("user")
 include("service")
-include("app")
+include("cli")
 
