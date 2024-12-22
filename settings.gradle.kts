@@ -1,4 +1,4 @@
-rootProject.name = "kotlin-modular-monolith"
+rootProject.name = "user-management"
 
 include("user")
 include("app")

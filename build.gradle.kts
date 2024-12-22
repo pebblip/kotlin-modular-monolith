@@ -10,7 +10,7 @@ dependencies {
 
 tasks {
     named<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>("shadowJar") {
-        archiveBaseName.set("modular-monolith")
+        archiveBaseName.set("user-management")
         archiveVersion.set("1.0.0")
         manifest {
             attributes["Main-Class"] = "gucchi.app.MainKt"
