@@ -4,4 +4,4 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-    command: java -jar build/libs/modular-monolith-1.0.0-all.jar
+    command: java -jar 
