@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     implementation(project(":user")) 
-    implementation(project(":app"))
+    implementation(project(":cli"))
 }
 
 tasks {
@@ -13,7 +13,7 @@ tasks {
         archiveBaseName.set("user-management")
         archiveVersion.set("1.0.0")
         manifest {
-            attributes["Main-Class"] = "gucchi.app.MainKt"
+            attributes["Main-Class"] = "gucchi.cli.MainKt"
         }        
     }
 }

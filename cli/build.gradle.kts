@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass.set("gucchi.app.MainKt")
+    mainClass.set("gucchi.cli.MainKt")
 }
 
 dependencies {
